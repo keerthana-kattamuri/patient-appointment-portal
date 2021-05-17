@@ -16,6 +16,6 @@
 ### 3. Add hospital by admin 
 
 
-# Deployed links
-# UI - https://keerthana-kattamuri.github.io/patient-appointment-portal/UI/main.html
+## Deployed links
+### UI - https://keerthana-kattamuri.github.io/patient-appointment-portal/UI/main.html
 
