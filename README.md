@@ -14,3 +14,8 @@
 ### 1. Show list of top 3 highest rated hospitals on home page 
 ### 2. Search functionality 
 ### 3. Add hospital by admin 
+
+
+# Deployed links
+# UI - https://keerthana-kattamuri.github.io/patient-appointment-portal/UI/main.html
+
