@@ -58,7 +58,7 @@ app.get("/", (req, res) =>
 
 app.listen(port, () =>
   console.log(
-    `your server is running on port http://localhost:${port} and dataBase url ${uri}`
+    `your server is running on port http://localhost:${port}`
   )
 );
 
