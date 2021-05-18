@@ -51,12 +51,14 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) =>
-  res.send(`node+express server running on port ${port}`)
+  res.send(
+    `node+express server running on port ${port} and dataBase url ${uri}`
+  )
 );
 
 app.listen(port, () =>
   console.log(
-    `your server is running on port http://localhost:${port} and deplyed data base url ${process.env.DATABASE_URL}`
+    `your server is running on port http://localhost:${port} and dataBase url ${uri}`
   )
 );
 
