@@ -55,7 +55,9 @@ app.get("/", (req, res) =>
 );
 
 app.listen(port, () =>
-  console.log(`your server is running on port http://localhost:${port}`)
+  console.log(
+    `your server is running on port http://localhost:${port} and deplyed data base url ${process.env.DATABASE_URL}`
+  )
 );
 
 Routes(app);
