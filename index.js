@@ -52,7 +52,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) =>
   res.send(
-    `node+express server running on port ${port} and dataBase url ${uri}`
+    `node+express server running on port ${port}`
   )
 );
 
